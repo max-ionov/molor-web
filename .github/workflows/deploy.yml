@@ -23,7 +23,7 @@ concurrency:
 
 defaults:
   run:
-    working-directory: ./doc
+    working-directory: .
 
 jobs:
   # Build job
