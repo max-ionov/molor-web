@@ -5,6 +5,7 @@ import { SparqlPlugin } from 'vitepress-plugin-sparql'
 export default defineConfig({
     title: "MOLOR LemmaBank",
     description: "A user interface for the MOLOR LemmaBank",
+    base: '/molor-web/',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
