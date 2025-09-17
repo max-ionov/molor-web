@@ -4,8 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
-// @ts-ignore
-import SparqlForm from 'vitepress-plugin-sparql/SparqlForm.vue'
+import { SparqlForm } from 'vitepress-plugin-sparql'
 
 export default {
   extends: DefaultTheme,
