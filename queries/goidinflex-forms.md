@@ -16,7 +16,7 @@ Output all the forms for a MOLOR lemma based on Goidinflex.
       "variable": "lemma",
       "type": "string",
       "label": "Lemma",
-      "placeholder": "molaid"
+      "placeholder": "molad"
     }
   ]
 }
