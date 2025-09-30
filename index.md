@@ -36,10 +36,11 @@ PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX molor:   <http://molor.eu/ontologies/molor/>
 
-SELECT DISTINCT ?lemma_str ?lemma_var_str ?POS
+SELECT DISTINCT ?lemma ?lemma_str ?lemma_var_str ?POS
 WHERE {
     ?lemma rdfs:label "${lemma}" ;
-           ontolex:writtenRep ?lemma_str .
+           ontolex:writtenRep ?lemma_str ;
+           rdfs:label ?label .
     OPTIONAL { ?lemma molor:lemmaVariant ?lemma_var . ?lemma_var rdfs:label ?lemma_var_str . }
     OPTIONAL { ?lemma molor:hasPOS ?POS . }
        
