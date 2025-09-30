@@ -1,0 +1,380 @@
+@prefix goidinflex: <file:///Users/max/Projects/MOLOR/Goidinflex/goidinflex.yml#> .
+@prefix molor: <http://molor.eu/ontologies/molor/> .
+@prefix morph: <http://www.w3.org/ns/lemon/morph#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix paralex: <https://www.paralex-standard.org/paralex_ontology.xml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+goidinflex:lex-molad-424 a ontolex:LexicalEntry ;
+    rdfs:label "molad"@sga ;
+    molor:CorPH_id "5394" ;
+    molor:CorPH_label "molad" ;
+    molor:WB_label "molad" ;
+    rdfs:comment "praising" ;
+    rdfs:seeAlso "http://dil.ie/32490" ;
+    morph:inflectionClass goidinflex:stem_u ;
+    ontolex:canonicalForm goidinflex:form-lex-molad-424-nom-sg ;
+    ontolex:otherForm goidinflex:form-lex-molad-424-acc-du,
+        goidinflex:form-lex-molad-424-acc-pl,
+        goidinflex:form-lex-molad-424-acc-sg,
+        goidinflex:form-lex-molad-424-dat-du,
+        goidinflex:form-lex-molad-424-dat-pl,
+        goidinflex:form-lex-molad-424-dat-sg,
+        goidinflex:form-lex-molad-424-gen-du,
+        goidinflex:form-lex-molad-424-gen-du2,
+        goidinflex:form-lex-molad-424-gen-pl,
+        goidinflex:form-lex-molad-424-gen-sg,
+        goidinflex:form-lex-molad-424-gen-sg2,
+        goidinflex:form-lex-molad-424-nom-du,
+        goidinflex:form-lex-molad-424-nom-pl,
+        goidinflex:form-lex-molad-424-nom-pl2,
+        goidinflex:form-lex-molad-424-nom-pl3,
+        goidinflex:form-lex-molad-424-voc-du,
+        goidinflex:form-lex-molad-424-voc-pl,
+        goidinflex:form-lex-molad-424-voc-sg .
+
+goidinflex:lex-toros-560 a ontolex:LexicalEntry ;
+    rdfs:label "toros"@sga ;
+    molor:CorPH_id "9720" ;
+    molor:CorPH_label "toirse" ;
+    molor:WB_label "toros" ;
+    rdfs:comment "sadness, sorrow" ;
+    rdfs:seeAlso "http://dil.ie/41280" ;
+    morph:inflectionClass <file:///Users/max/Projects/MOLOR/Goidinflex/goidinflex.yml#stem_iā;stem_ā> ;
+    ontolex:canonicalForm goidinflex:form-lex-toros-560-nom-sg,
+        goidinflex:form-lex-toros-560-nom-sg2 ;
+    ontolex:otherForm goidinflex:form-lex-toros-560-acc-du,
+        goidinflex:form-lex-toros-560-acc-du2,
+        goidinflex:form-lex-toros-560-acc-pl,
+        goidinflex:form-lex-toros-560-acc-pl2,
+        goidinflex:form-lex-toros-560-acc-sg,
+        goidinflex:form-lex-toros-560-acc-sg2,
+        goidinflex:form-lex-toros-560-dat-du,
+        goidinflex:form-lex-toros-560-dat-du2,
+        goidinflex:form-lex-toros-560-dat-pl,
+        goidinflex:form-lex-toros-560-dat-pl2,
+        goidinflex:form-lex-toros-560-dat-sg,
+        goidinflex:form-lex-toros-560-dat-sg2,
+        goidinflex:form-lex-toros-560-gen-du,
+        goidinflex:form-lex-toros-560-gen-du2,
+        goidinflex:form-lex-toros-560-gen-pl,
+        goidinflex:form-lex-toros-560-gen-pl2,
+        goidinflex:form-lex-toros-560-gen-sg,
+        goidinflex:form-lex-toros-560-gen-sg2,
+        goidinflex:form-lex-toros-560-nom-du,
+        goidinflex:form-lex-toros-560-nom-du2,
+        goidinflex:form-lex-toros-560-nom-pl,
+        goidinflex:form-lex-toros-560-nom-pl2,
+        goidinflex:form-lex-toros-560-voc-du,
+        goidinflex:form-lex-toros-560-voc-du2,
+        goidinflex:form-lex-toros-560-voc-pl,
+        goidinflex:form-lex-toros-560-voc-pl2,
+        goidinflex:form-lex-toros-560-voc-sg,
+        goidinflex:form-lex-toros-560-voc-sg2 .
+
+goidinflex:form-lex-molad-424-acc-du a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ a ðˠ"@sga ;
+    ontolex:writtenRep "molad"@sga ;
+    paralex:cell goidinflex:acc.du .
+
+goidinflex:form-lex-molad-424-acc-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ ə Øʷ"@sga ;
+    ontolex:writtenRep "moltu"@sga ;
+    paralex:cell goidinflex:acc.pl .
+
+goidinflex:form-lex-molad-424-acc-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ a ðˠ"@sga ;
+    ontolex:writtenRep "molad"@sga ;
+    paralex:cell goidinflex:acc.sg .
+
+goidinflex:form-lex-molad-424-dat-du a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ ə βʲ"@sga ;
+    ontolex:writtenRep "moltaib"@sga ;
+    paralex:cell goidinflex:dat.du .
+
+goidinflex:form-lex-molad-424-dat-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ ə βʲ"@sga ;
+    ontolex:writtenRep "moltaib"@sga ;
+    paralex:cell goidinflex:dat.pl .
+
+goidinflex:form-lex-molad-424-dat-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ a ðˠ"@sga ;
+    ontolex:writtenRep "molad"@sga ;
+    paralex:cell goidinflex:dat.sg .
+
+goidinflex:form-lex-molad-424-gen-du a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ a Øˠ"@sga ;
+    ontolex:writtenRep "molta"@sga ;
+    paralex:cell goidinflex:gen.du .
+
+goidinflex:form-lex-molad-424-gen-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ a Øʷ"@sga ;
+    ontolex:writtenRep "molto"@sga ;
+    paralex:cell goidinflex:gen.du .
+
+goidinflex:form-lex-molad-424-gen-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ a Øʲ"@sga ;
+    ontolex:writtenRep "moltae"@sga ;
+    paralex:cell goidinflex:gen.pl .
+
+goidinflex:form-lex-molad-424-gen-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ a Øˠ"@sga ;
+    ontolex:writtenRep "molta"@sga ;
+    paralex:cell goidinflex:gen.sg .
+
+goidinflex:form-lex-molad-424-gen-sg2 a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ a Øʷ"@sga ;
+    ontolex:writtenRep "molto"@sga ;
+    paralex:cell goidinflex:gen.sg .
+
+goidinflex:form-lex-molad-424-nom-du a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ a ðˠ"@sga ;
+    ontolex:writtenRep "molad"@sga ;
+    paralex:cell goidinflex:nom.du .
+
+goidinflex:form-lex-molad-424-nom-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ a Øˠ"@sga ;
+    ontolex:writtenRep "molta"@sga ;
+    paralex:cell goidinflex:nom.pl .
+
+goidinflex:form-lex-molad-424-nom-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ a Øʲ"@sga ;
+    ontolex:writtenRep "moltae"@sga ;
+    paralex:cell goidinflex:nom.pl .
+
+goidinflex:form-lex-molad-424-nom-pl3 a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ ə Øʲ"@sga ;
+    ontolex:writtenRep "moltai"@sga ;
+    paralex:cell goidinflex:nom.pl .
+
+goidinflex:form-lex-molad-424-nom-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ a ðˠ"@sga ;
+    ontolex:writtenRep "molad"@sga ;
+    paralex:cell goidinflex:nom.sg .
+
+goidinflex:form-lex-molad-424-voc-du a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ a ðˠ"@sga ;
+    ontolex:writtenRep "molad"@sga ;
+    paralex:cell goidinflex:voc.du .
+
+goidinflex:form-lex-molad-424-voc-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ tˠ ə Øʷ"@sga ;
+    ontolex:writtenRep "moltu"@sga ;
+    paralex:cell goidinflex:voc.pl .
+
+goidinflex:form-lex-molad-424-voc-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ mʷ a lˠ a ðˠ"@sga ;
+    ontolex:writtenRep "molad"@sga ;
+    paralex:cell goidinflex:voc.sg .
+
+goidinflex:form-lex-toros-560-acc-du a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ a Øʲ"@sga ;
+    ontolex:writtenRep "toirse"@sga ;
+    paralex:cell goidinflex:acc.du .
+
+goidinflex:form-lex-toros-560-acc-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ ə sʲ"@sga ;
+    ontolex:writtenRep "toruis"@sga ;
+    paralex:cell goidinflex:acc.du .
+
+goidinflex:form-lex-toros-560-acc-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ ə Øʲ"@sga ;
+    ontolex:writtenRep "toirsi"@sga ;
+    paralex:cell goidinflex:acc.pl .
+
+goidinflex:form-lex-toros-560-acc-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ sʷ a Øˠ"@sga ;
+    ontolex:writtenRep "torsa"@sga ;
+    paralex:cell goidinflex:acc.pl .
+
+goidinflex:form-lex-toros-560-acc-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ a Øʲ"@sga ;
+    ontolex:writtenRep "toirse"@sga ;
+    paralex:cell goidinflex:acc.sg .
+
+goidinflex:form-lex-toros-560-acc-sg2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ ə sʲ"@sga ;
+    ontolex:writtenRep "toruis"@sga ;
+    paralex:cell goidinflex:acc.sg .
+
+goidinflex:form-lex-toros-560-dat-du a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ ə βʲ"@sga ;
+    ontolex:writtenRep "toirsib"@sga ;
+    paralex:cell goidinflex:dat.du .
+
+goidinflex:form-lex-toros-560-dat-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ sʷ ə βʲ"@sga ;
+    ontolex:writtenRep "torsuib"@sga ;
+    paralex:cell goidinflex:dat.du .
+
+goidinflex:form-lex-toros-560-dat-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ ə βʲ"@sga ;
+    ontolex:writtenRep "toirsib"@sga ;
+    paralex:cell goidinflex:dat.pl .
+
+goidinflex:form-lex-toros-560-dat-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ sʷ ə βʲ"@sga ;
+    ontolex:writtenRep "torsuib"@sga ;
+    paralex:cell goidinflex:dat.pl .
+
+goidinflex:form-lex-toros-560-dat-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ a Øʲ"@sga ;
+    ontolex:writtenRep "toirse"@sga ;
+    paralex:cell goidinflex:dat.sg .
+
+goidinflex:form-lex-toros-560-dat-sg2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ ə sʲ"@sga ;
+    ontolex:writtenRep "toruis"@sga ;
+    paralex:cell goidinflex:dat.sg .
+
+goidinflex:form-lex-toros-560-gen-du a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ a Øʲ"@sga ;
+    ontolex:writtenRep "toirse"@sga ;
+    paralex:cell goidinflex:gen.du .
+
+goidinflex:form-lex-toros-560-gen-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ a sˠ"@sga ;
+    ontolex:writtenRep "toros"@sga ;
+    paralex:cell goidinflex:gen.du .
+
+goidinflex:form-lex-toros-560-gen-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ a Øʲ"@sga ;
+    ontolex:writtenRep "toirse"@sga ;
+    paralex:cell goidinflex:gen.pl .
+
+goidinflex:form-lex-toros-560-gen-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ a sˠ"@sga ;
+    ontolex:writtenRep "toros"@sga ;
+    paralex:cell goidinflex:gen.pl .
+
+goidinflex:form-lex-toros-560-gen-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ a Øʲ"@sga ;
+    ontolex:writtenRep "toirse"@sga ;
+    paralex:cell goidinflex:gen.sg .
+
+goidinflex:form-lex-toros-560-gen-sg2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ sʷ a Øʲ"@sga ;
+    ontolex:writtenRep "torsae"@sga ;
+    paralex:cell goidinflex:gen.sg .
+
+goidinflex:form-lex-toros-560-nom-du a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ a Øʲ"@sga ;
+    ontolex:writtenRep "toirse"@sga ;
+    paralex:cell goidinflex:nom.du .
+
+goidinflex:form-lex-toros-560-nom-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ ə sʲ"@sga ;
+    ontolex:writtenRep "toruis"@sga ;
+    paralex:cell goidinflex:nom.du .
+
+goidinflex:form-lex-toros-560-nom-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ ə Øʲ"@sga ;
+    ontolex:writtenRep "toirsi"@sga ;
+    paralex:cell goidinflex:nom.pl .
+
+goidinflex:form-lex-toros-560-nom-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ sʷ a Øˠ"@sga ;
+    ontolex:writtenRep "torsa"@sga ;
+    paralex:cell goidinflex:nom.pl .
+
+goidinflex:form-lex-toros-560-nom-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ a Øʲ"@sga ;
+    ontolex:writtenRep "toirse"@sga ;
+    paralex:cell goidinflex:nom.sg .
+
+goidinflex:form-lex-toros-560-nom-sg2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ a sˠ"@sga ;
+    ontolex:writtenRep "toros"@sga ;
+    paralex:cell goidinflex:nom.sg .
+
+goidinflex:form-lex-toros-560-voc-du a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ a Øʲ"@sga ;
+    ontolex:writtenRep "toirse"@sga ;
+    paralex:cell goidinflex:voc.du .
+
+goidinflex:form-lex-toros-560-voc-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ ə sʲ"@sga ;
+    ontolex:writtenRep "toruis"@sga ;
+    paralex:cell goidinflex:voc.du .
+
+goidinflex:form-lex-toros-560-voc-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ ə Øʲ"@sga ;
+    ontolex:writtenRep "toirsi"@sga ;
+    paralex:cell goidinflex:voc.pl .
+
+goidinflex:form-lex-toros-560-voc-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ sʷ a Øˠ"@sga ;
+    ontolex:writtenRep "torsa"@sga ;
+    paralex:cell goidinflex:voc.pl .
+
+goidinflex:form-lex-toros-560-voc-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʲ sʲ a Øʲ"@sga ;
+    ontolex:writtenRep "toirse"@sga ;
+    paralex:cell goidinflex:voc.sg .
+
+goidinflex:form-lex-toros-560-voc-sg2 a ontolex:Form ;
+    ontolex:phonRep "ˈ tʷ a rʷ a sˠ"@sga ;
+    ontolex:writtenRep "toros"@sga ;
+    paralex:cell goidinflex:voc.sg .
+
+goidinflex:acc.sg a paralex:Cell ;
+    rdfs:label "accusative singular" ;
+    paralex:canonical_order 3 .
+
+goidinflex:dat.du a paralex:Cell ;
+    rdfs:label "dative dual" ;
+    paralex:canonical_order 10 .
+
+goidinflex:dat.pl a paralex:Cell ;
+    rdfs:label "dative plural" ;
+    paralex:canonical_order 15 .
+
+goidinflex:voc.sg a paralex:Cell ;
+    rdfs:label "vocative singular" ;
+    paralex:canonical_order 2 .
+
+goidinflex:gen.pl a paralex:Cell ;
+    rdfs:label "genitive plural" ;
+    paralex:canonical_order 14 .
+
+goidinflex:nom.sg a paralex:Cell ;
+    rdfs:label "nominative singular" ;
+    paralex:canonical_order 1 .
+
+goidinflex:acc.du a paralex:Cell ;
+    rdfs:label "accusative dual" ;
+    paralex:canonical_order 8 .
+
+goidinflex:nom.du a paralex:Cell ;
+    rdfs:label "nominative dual" ;
+    paralex:canonical_order 6 .
+
+goidinflex:voc.du a paralex:Cell ;
+    rdfs:label "vocative dual" ;
+    paralex:canonical_order 7 .
+
+goidinflex:dat.sg a paralex:Cell ;
+    rdfs:label "dative singular" ;
+    paralex:canonical_order 5 .
+
+goidinflex:acc.pl a paralex:Cell ;
+    rdfs:label "accusative plural" ;
+    paralex:canonical_order 13 .
+
+goidinflex:voc.pl a paralex:Cell ;
+    rdfs:label "vocative plural" ;
+    paralex:canonical_order 12 .
+
+goidinflex:gen.sg a paralex:Cell ;
+    rdfs:label "genitive singular" ;
+    paralex:canonical_order 4 .
+
+goidinflex:gen.du a paralex:Cell ;
+    rdfs:label "genitive dual" ;
+    paralex:canonical_order 9 .
+
+goidinflex:nom.pl a paralex:Cell ;
+    rdfs:label "nominative plural" ;
+    paralex:canonical_order 11 .
+
