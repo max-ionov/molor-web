@@ -8,7 +8,7 @@ Output all the forms for a MOLOR lemma based on Goidinflex.
 {
   "endpoints": [
     "https://raw.githubusercontent.com/CIRCSE/Molor/refs/heads/main/ttl/molorLemmaBank.ttl",
-    "http://localhost:5173/molor-web/ttl/goidinflex.ttl",
+    "https://raw.githubusercontent.com/max-ionov/molor-web/refs/heads/main/ttl/goidinflex.ttl",
     "https://raw.githubusercontent.com/max-ionov/molor-web/refs/heads/main/ttl/molor-goidinflex-mappings.ttl"
   ],
   "parameters": [
