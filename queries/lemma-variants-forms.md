@@ -25,13 +25,14 @@ Output all the forms for all the lemma variants for a MOLOR lemma based on Goidi
 ```sparql
 PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX molor:   <http://molor.eu/ontologies/molor/>
 PREFIX paralex: <https://www.paralex-standard.org/paralex_ontology.xml#>
 
-SELECT DISTINCT ?lemma ?lemma_var ?cell_str ?form_str
+SELECT DISTINCT ?lemma ?cell_str ?form_str (IF(BOUND(?lemma_var), ?lemma_var, "<empty>") AS ?variant)
 WHERE {
-    ?lemma ontolex:writtenRep "${lemma}" ;
-           molor:lemmaVariant ?lemma_var .
+    ?lemma ontolex:writtenRep "${lemma}" .
+    OPTIONAL { ?lemma molor:lemmaVariant ?lemma_var . }
     { ?lemma_var rdfs:seeAlso ?goidinflex_lemma . } UNION { ?lemma rdfs:seeAlso ?goidinflex_lemma . }
     ?goidinflex_lemma ontolex:canonicalForm|ontolex:otherForm ?form .
     ?form ontolex:writtenRep ?form_str ;
