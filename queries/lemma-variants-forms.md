@@ -29,7 +29,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX molor:   <http://molor.eu/ontologies/molor/>
 PREFIX paralex: <https://www.paralex-standard.org/paralex_ontology.xml#>
 
-SELECT DISTINCT ?lemma ?cell_str ?form_str (IF(BOUND(?lemma_var), ?lemma_var, "<empty>") AS ?variant)
+SELECT DISTINCT ?lemma ?cell_str ?form_str ?variant
 WHERE {
     ?lemma ontolex:writtenRep "${lemma}" .
     OPTIONAL { ?lemma molor:lemmaVariant ?lemma_var . }
@@ -39,7 +39,9 @@ WHERE {
           paralex:cell ?cell .
     ?cell rdfs:label ?cell_str ;
           paralex:canonical_order ?form_order .
+
+    BIND(COALESCE(?lemma_var, "<empty>") AS ?variant)
     
-} ORDER BY ?form_order LIMIT 100
+} ORDER BY ?form_order LIMIT 200
 ```
 :::form
