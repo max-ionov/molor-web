@@ -73,6 +73,98 @@ goidinflex:lex-toros-560 a ontolex:LexicalEntry ;
         goidinflex:form-lex-toros-560-voc-sg,
         goidinflex:form-lex-toros-560-voc-sg2 .
 
+goidinflex:lex-ciall-131 a ontolex:LexicalEntry ;
+    rdfs:label "cíall"@sga ;
+    molor:CorPH_id "606" ;
+    molor:CorPH_label "cíall" ;
+    molor:WB_label "cíall" ;
+    rdfs:comment "sense" ;
+    rdfs:seeAlso "http://dil.ie/8983" ;
+    morph:inflectionClass goidinflex:stem_ā ;
+    ontolex:canonicalForm goidinflex:form-lex-ciall-131-nom-sg ;
+    ontolex:otherForm goidinflex:form-lex-ciall-131-acc-du,
+        goidinflex:form-lex-ciall-131-acc-pl,
+        goidinflex:form-lex-ciall-131-acc-sg,
+        goidinflex:form-lex-ciall-131-dat-du,
+        goidinflex:form-lex-ciall-131-dat-pl,
+        goidinflex:form-lex-ciall-131-dat-sg,
+        goidinflex:form-lex-ciall-131-gen-du,
+        goidinflex:form-lex-ciall-131-gen-pl,
+        goidinflex:form-lex-ciall-131-gen-sg,
+        goidinflex:form-lex-ciall-131-nom-du,
+        goidinflex:form-lex-ciall-131-nom-pl,
+        goidinflex:form-lex-ciall-131-voc-du,
+        goidinflex:form-lex-ciall-131-voc-pl,
+        goidinflex:form-lex-ciall-131-voc-sg .
+
+goidinflex:lex-athair-66 a ontolex:LexicalEntry ;
+    rdfs:label "athair"@sga ;
+    molor:CorPH_id "285" ;
+    molor:CorPH_label "athair" ;
+    molor:WB_label "athir" ;
+    rdfs:comment "father" ;
+    rdfs:seeAlso "http://dil.ie/4625" ;
+    morph:inflectionClass goidinflex:stem_r ;
+    ontolex:canonicalForm goidinflex:form-lex-athair-66-nom-sg ;
+    ontolex:otherForm goidinflex:form-lex-athair-66-acc-du,
+        goidinflex:form-lex-athair-66-acc-pl,
+        goidinflex:form-lex-athair-66-acc-pl2,
+        goidinflex:form-lex-athair-66-acc-sg,
+        goidinflex:form-lex-athair-66-dat-du,
+        goidinflex:form-lex-athair-66-dat-du2,
+        goidinflex:form-lex-athair-66-dat-pl,
+        goidinflex:form-lex-athair-66-dat-pl2,
+        goidinflex:form-lex-athair-66-dat-sg,
+        goidinflex:form-lex-athair-66-gen-du,
+        goidinflex:form-lex-athair-66-gen-pl,
+        goidinflex:form-lex-athair-66-gen-pl2,
+        goidinflex:form-lex-athair-66-gen-sg,
+        goidinflex:form-lex-athair-66-nom-du,
+        goidinflex:form-lex-athair-66-nom-pl,
+        goidinflex:form-lex-athair-66-voc-du,
+        goidinflex:form-lex-athair-66-voc-pl,
+        goidinflex:form-lex-athair-66-voc-pl2,
+        goidinflex:form-lex-athair-66-voc-sg .
+
+goidinflex:lex-ail-16 a ontolex:LexicalEntry ;
+    rdfs:label "ail"@sga ;
+    molor:CorPH_id "94" ;
+    molor:CorPH_label "ail 1" ;
+    molor:WB_label "ail" ;
+    rdfs:comment "rock" ;
+    rdfs:seeAlso "http://dil.ie/954" ;
+    morph:inflectionClass <file:///Users/max/Projects/MOLOR/Goidinflex/goidinflex.yml#stem_i;stem_k> ;
+    ontolex:canonicalForm goidinflex:form-lex-ail-16-nom-sg ;
+    ontolex:otherForm goidinflex:form-lex-ail-16-acc-du,
+        goidinflex:form-lex-ail-16-acc-du2,
+        goidinflex:form-lex-ail-16-acc-pl,
+        goidinflex:form-lex-ail-16-acc-pl2,
+        goidinflex:form-lex-ail-16-acc-sg,
+        goidinflex:form-lex-ail-16-acc-sg2,
+        goidinflex:form-lex-ail-16-dat-du,
+        goidinflex:form-lex-ail-16-dat-du2,
+        goidinflex:form-lex-ail-16-dat-pl,
+        goidinflex:form-lex-ail-16-dat-pl2,
+        goidinflex:form-lex-ail-16-dat-sg,
+        goidinflex:form-lex-ail-16-dat-sg2,
+        goidinflex:form-lex-ail-16-gen-du,
+        goidinflex:form-lex-ail-16-gen-du2,
+        goidinflex:form-lex-ail-16-gen-du3,
+        goidinflex:form-lex-ail-16-gen-pl,
+        goidinflex:form-lex-ail-16-gen-pl2,
+        goidinflex:form-lex-ail-16-gen-sg,
+        goidinflex:form-lex-ail-16-gen-sg2,
+        goidinflex:form-lex-ail-16-gen-sg3,
+        goidinflex:form-lex-ail-16-nom-du,
+        goidinflex:form-lex-ail-16-nom-du2,
+        goidinflex:form-lex-ail-16-nom-pl,
+        goidinflex:form-lex-ail-16-nom-pl2,
+        goidinflex:form-lex-ail-16-voc-du,
+        goidinflex:form-lex-ail-16-voc-du2,
+        goidinflex:form-lex-ail-16-voc-pl,
+        goidinflex:form-lex-ail-16-voc-pl2,
+        goidinflex:form-lex-ail-16-voc-sg .
+
 goidinflex:form-lex-molad-424-acc-du a ontolex:Form ;
     ontolex:phonRep "ˈ mʷ a lˠ a ðˠ"@sga ;
     ontolex:writtenRep "molad"@sga ;
@@ -316,6 +408,331 @@ goidinflex:form-lex-toros-560-voc-sg a ontolex:Form ;
 goidinflex:form-lex-toros-560-voc-sg2 a ontolex:Form ;
     ontolex:phonRep "ˈ tʷ a rʷ a sˠ"@sga ;
     ontolex:writtenRep "toros"@sga ;
+    paralex:cell goidinflex:voc.sg .
+
+goidinflex:form-lex-ciall-131-acc-du a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟʲ"@sga ;
+    ontolex:writtenRep "céill"@sga ;
+    paralex:cell goidinflex:acc.du .
+
+goidinflex:form-lex-ciall-131-acc-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟˠ a Øˠ"@sga ;
+    ontolex:writtenRep "cíalla"@sga ;
+    paralex:cell goidinflex:acc.pl .
+
+goidinflex:form-lex-ciall-131-acc-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟʲ"@sga ;
+    ontolex:writtenRep "céill"@sga ;
+    paralex:cell goidinflex:acc.sg .
+
+goidinflex:form-lex-ciall-131-dat-du a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟˠ ə βʲ"@sga ;
+    ontolex:writtenRep "cíallaib"@sga ;
+    paralex:cell goidinflex:dat.du .
+
+goidinflex:form-lex-ciall-131-dat-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟˠ ə βʲ"@sga ;
+    ontolex:writtenRep "cíallaib"@sga ;
+    paralex:cell goidinflex:dat.pl .
+
+goidinflex:form-lex-ciall-131-dat-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟʲ"@sga ;
+    ontolex:writtenRep "céill"@sga ;
+    paralex:cell goidinflex:dat.sg .
+
+goidinflex:form-lex-ciall-131-gen-du a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟˠ"@sga ;
+    ontolex:writtenRep "cíall"@sga ;
+    paralex:cell goidinflex:gen.du .
+
+goidinflex:form-lex-ciall-131-gen-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟˠ"@sga ;
+    ontolex:writtenRep "cíall"@sga ;
+    paralex:cell goidinflex:gen.pl .
+
+goidinflex:form-lex-ciall-131-gen-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟʲ a Øʲ"@sga ;
+    ontolex:writtenRep "céille"@sga ;
+    paralex:cell goidinflex:gen.sg .
+
+goidinflex:form-lex-ciall-131-nom-du a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟʲ"@sga ;
+    ontolex:writtenRep "céill"@sga ;
+    paralex:cell goidinflex:nom.du .
+
+goidinflex:form-lex-ciall-131-nom-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟˠ a Øˠ"@sga ;
+    ontolex:writtenRep "cíalla"@sga ;
+    paralex:cell goidinflex:nom.pl .
+
+goidinflex:form-lex-ciall-131-nom-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟˠ"@sga ;
+    ontolex:writtenRep "cíall"@sga ;
+    paralex:cell goidinflex:nom.sg .
+
+goidinflex:form-lex-ciall-131-voc-du a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟʲ"@sga ;
+    ontolex:writtenRep "céill"@sga ;
+    paralex:cell goidinflex:voc.du .
+
+goidinflex:form-lex-ciall-131-voc-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟˠ a Øˠ"@sga ;
+    ontolex:writtenRep "cíalla"@sga ;
+    paralex:cell goidinflex:voc.pl .
+
+goidinflex:form-lex-ciall-131-voc-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ kʲ a Øˠ ʟˠ"@sga ;
+    ontolex:writtenRep "cíall"@sga ;
+    paralex:cell goidinflex:voc.sg .
+
+goidinflex:form-lex-athair-66-acc-du a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ ə rʲ"@sga ;
+    ontolex:writtenRep "athair"@sga ;
+    paralex:cell goidinflex:acc.du .
+
+goidinflex:form-lex-athair-66-acc-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θʲ rʲ a Øˠ"@sga ;
+    ontolex:writtenRep "aithrea"@sga ;
+    paralex:cell goidinflex:acc.pl .
+
+goidinflex:form-lex-athair-66-acc-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ rˠ a Øˠ"@sga ;
+    ontolex:writtenRep "athra"@sga ;
+    paralex:cell goidinflex:acc.pl .
+
+goidinflex:form-lex-athair-66-acc-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ ə rʲ"@sga ;
+    ontolex:writtenRep "athair"@sga ;
+    paralex:cell goidinflex:acc.sg .
+
+goidinflex:form-lex-athair-66-dat-du a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θʲ rʲ ə βʲ"@sga ;
+    ontolex:writtenRep "aithrib"@sga ;
+    paralex:cell goidinflex:dat.du .
+
+goidinflex:form-lex-athair-66-dat-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ rˠ ə βʲ"@sga ;
+    ontolex:writtenRep "athraib"@sga ;
+    paralex:cell goidinflex:dat.du .
+
+goidinflex:form-lex-athair-66-dat-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θʲ rʲ ə βʲ"@sga ;
+    ontolex:writtenRep "aithrib"@sga ;
+    paralex:cell goidinflex:dat.pl .
+
+goidinflex:form-lex-athair-66-dat-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ rˠ ə βʲ"@sga ;
+    ontolex:writtenRep "athraib"@sga ;
+    paralex:cell goidinflex:dat.pl .
+
+goidinflex:form-lex-athair-66-dat-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ ə rʲ"@sga ;
+    ontolex:writtenRep "athair"@sga ;
+    paralex:cell goidinflex:dat.sg .
+
+goidinflex:form-lex-athair-66-gen-du a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ a rˠ"@sga ;
+    ontolex:writtenRep "athar"@sga ;
+    paralex:cell goidinflex:gen.du .
+
+goidinflex:form-lex-athair-66-gen-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θʲ rʲ a Øʲ"@sga ;
+    ontolex:writtenRep "aithre"@sga ;
+    paralex:cell goidinflex:gen.pl .
+
+goidinflex:form-lex-athair-66-gen-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ rˠ a Øʲ"@sga ;
+    ontolex:writtenRep "athrae"@sga ;
+    paralex:cell goidinflex:gen.pl .
+
+goidinflex:form-lex-athair-66-gen-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ a rˠ"@sga ;
+    ontolex:writtenRep "athar"@sga ;
+    paralex:cell goidinflex:gen.sg .
+
+goidinflex:form-lex-athair-66-nom-du a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ ə rʲ"@sga ;
+    ontolex:writtenRep "athair"@sga ;
+    paralex:cell goidinflex:nom.du .
+
+goidinflex:form-lex-athair-66-nom-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ ə rʲ"@sga ;
+    ontolex:writtenRep "athair"@sga ;
+    paralex:cell goidinflex:nom.pl .
+
+goidinflex:form-lex-athair-66-nom-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ ə rʲ"@sga ;
+    ontolex:writtenRep "athair"@sga ;
+    paralex:cell goidinflex:nom.sg .
+
+goidinflex:form-lex-athair-66-voc-du a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ ə rʲ"@sga ;
+    ontolex:writtenRep "athair"@sga ;
+    paralex:cell goidinflex:voc.du .
+
+goidinflex:form-lex-athair-66-voc-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θʲ rʲ a Øˠ"@sga ;
+    ontolex:writtenRep "aithrea"@sga ;
+    paralex:cell goidinflex:voc.pl .
+
+goidinflex:form-lex-athair-66-voc-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ rˠ a Øˠ"@sga ;
+    ontolex:writtenRep "athra"@sga ;
+    paralex:cell goidinflex:voc.pl .
+
+goidinflex:form-lex-athair-66-voc-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a θˠ ə rʲ"@sga ;
+    ontolex:writtenRep "athair"@sga ;
+    paralex:cell goidinflex:voc.sg .
+
+goidinflex:form-lex-ail-16-acc-du a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ"@sga ;
+    ontolex:writtenRep "ail"@sga ;
+    paralex:cell goidinflex:acc.du .
+
+goidinflex:form-lex-ail-16-acc-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə ɣʲ"@sga ;
+    ontolex:writtenRep "ailig"@sga ;
+    paralex:cell goidinflex:acc.du .
+
+goidinflex:form-lex-ail-16-acc-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ xʲ a Øˠ"@sga ;
+    ontolex:writtenRep "ailchea"@sga ;
+    paralex:cell goidinflex:acc.pl .
+
+goidinflex:form-lex-ail-16-acc-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə Øʲ"@sga ;
+    ontolex:writtenRep "aili"@sga ;
+    paralex:cell goidinflex:acc.pl .
+
+goidinflex:form-lex-ail-16-acc-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ"@sga ;
+    ontolex:writtenRep "ail"@sga ;
+    paralex:cell goidinflex:acc.sg .
+
+goidinflex:form-lex-ail-16-acc-sg2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə ɣʲ"@sga ;
+    ontolex:writtenRep "ailig"@sga ;
+    paralex:cell goidinflex:acc.sg .
+
+goidinflex:form-lex-ail-16-dat-du a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ xʲ ə βʲ"@sga ;
+    ontolex:writtenRep "ailchib"@sga ;
+    paralex:cell goidinflex:dat.du .
+
+goidinflex:form-lex-ail-16-dat-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə βʲ"@sga ;
+    ontolex:writtenRep "ailib"@sga ;
+    paralex:cell goidinflex:dat.du .
+
+goidinflex:form-lex-ail-16-dat-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ xʲ ə βʲ"@sga ;
+    ontolex:writtenRep "ailchib"@sga ;
+    paralex:cell goidinflex:dat.pl .
+
+goidinflex:form-lex-ail-16-dat-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə βʲ"@sga ;
+    ontolex:writtenRep "ailib"@sga ;
+    paralex:cell goidinflex:dat.pl .
+
+goidinflex:form-lex-ail-16-dat-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ"@sga ;
+    ontolex:writtenRep "ail"@sga ;
+    paralex:cell goidinflex:dat.sg .
+
+goidinflex:form-lex-ail-16-dat-sg2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə ɣʲ"@sga ;
+    ontolex:writtenRep "ailig"@sga ;
+    paralex:cell goidinflex:dat.sg .
+
+goidinflex:form-lex-ail-16-gen-du a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ a xˠ"@sga ;
+    ontolex:writtenRep "ailech"@sga ;
+    paralex:cell goidinflex:gen.du .
+
+goidinflex:form-lex-ail-16-gen-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʷ a Øˠ"@sga ;
+    ontolex:writtenRep "ala"@sga ;
+    paralex:cell goidinflex:gen.du .
+
+goidinflex:form-lex-ail-16-gen-du3 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʷ a Øʷ"@sga ;
+    ontolex:writtenRep "alo"@sga ;
+    paralex:cell goidinflex:gen.du .
+
+goidinflex:form-lex-ail-16-gen-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ a Øʲ"@sga ;
+    ontolex:writtenRep "aile"@sga ;
+    paralex:cell goidinflex:gen.pl .
+
+goidinflex:form-lex-ail-16-gen-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ a xˠ"@sga ;
+    ontolex:writtenRep "ailech"@sga ;
+    paralex:cell goidinflex:gen.pl .
+
+goidinflex:form-lex-ail-16-gen-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ a xˠ"@sga ;
+    ontolex:writtenRep "ailech"@sga ;
+    paralex:cell goidinflex:gen.sg .
+
+goidinflex:form-lex-ail-16-gen-sg2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʷ a Øˠ"@sga ;
+    ontolex:writtenRep "ala"@sga ;
+    paralex:cell goidinflex:gen.sg .
+
+goidinflex:form-lex-ail-16-gen-sg3 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʷ a Øʷ"@sga ;
+    ontolex:writtenRep "alo"@sga ;
+    paralex:cell goidinflex:gen.sg .
+
+goidinflex:form-lex-ail-16-nom-du a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ"@sga ;
+    ontolex:writtenRep "ail"@sga ;
+    paralex:cell goidinflex:nom.du .
+
+goidinflex:form-lex-ail-16-nom-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə ɣʲ"@sga ;
+    ontolex:writtenRep "ailig"@sga ;
+    paralex:cell goidinflex:nom.du .
+
+goidinflex:form-lex-ail-16-nom-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə Øʲ"@sga ;
+    ontolex:writtenRep "aili"@sga ;
+    paralex:cell goidinflex:nom.pl .
+
+goidinflex:form-lex-ail-16-nom-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə ɣʲ"@sga ;
+    ontolex:writtenRep "ailig"@sga ;
+    paralex:cell goidinflex:nom.pl .
+
+goidinflex:form-lex-ail-16-nom-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ"@sga ;
+    ontolex:writtenRep "ail"@sga ;
+    paralex:cell goidinflex:nom.sg .
+
+goidinflex:form-lex-ail-16-voc-du a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ"@sga ;
+    ontolex:writtenRep "ail"@sga ;
+    paralex:cell goidinflex:voc.du .
+
+goidinflex:form-lex-ail-16-voc-du2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə ɣʲ"@sga ;
+    ontolex:writtenRep "ailig"@sga ;
+    paralex:cell goidinflex:voc.du .
+
+goidinflex:form-lex-ail-16-voc-pl a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ xʲ a Øˠ"@sga ;
+    ontolex:writtenRep "ailchea"@sga ;
+    paralex:cell goidinflex:voc.pl .
+
+goidinflex:form-lex-ail-16-voc-pl2 a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ ə Øʲ"@sga ;
+    ontolex:writtenRep "aili"@sga ;
+    paralex:cell goidinflex:voc.pl .
+
+goidinflex:form-lex-ail-16-voc-sg a ontolex:Form ;
+    ontolex:phonRep "ˈ Øˠ a lʲ"@sga ;
+    ontolex:writtenRep "ail"@sga ;
     paralex:cell goidinflex:voc.sg .
 
 goidinflex:acc.sg a paralex:Cell ;
