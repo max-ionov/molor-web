@@ -23,7 +23,10 @@ export default defineConfig({
                 ]
             }
         ],
-
+        footer: {
+            message: "The MOLOR project was funded by the European Union as part of its Horizon Europe scientific research initiative under the Marie Skłodowska-Curie Actions (MSCA), grant agreement no. 101106220.",
+            copyright: "<img class=\"mx-auto\" alt=\"logo\" height=\"70\" src=\"https://molor.eu/static/media/LogoCattnuovo.b4e4f774c1cdb41c839d.png\"><img class=\"mx-auto\" alt=\"logoEURO\" height=\"70\" src=\"https://molor.eu/static/media/EN_FundedbytheEU_RGB_POS.967396561dde9c059dbd.png\">",
+        },
         socialLinks: [
             {icon: 'github', link: 'https://github.com/max-ionov/molor-web/'}
         ]
